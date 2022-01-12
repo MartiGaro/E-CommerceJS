@@ -1,0 +1,128 @@
+[
+    {
+        "modello": "Old Skool",
+        "categoria": "Scarpe",
+        "prezzo1": "75,00",
+        "prezzo2": "37,50",
+        "url": "assets/img/scarpa1.png"
+    },
+    {
+        "modello": "Comfycush Slip-On",
+        "categoria": "Scarpe",
+        "prezzo1": "75,00",
+        "prezzo2": "37,50",
+        "url": "assets/img/scarpa2.png"
+    },
+    {
+        "modello": "Leopard SK8-HI",
+        "categoria": "Scarpe",
+        "prezzo1": "90,00",
+        "prezzo2": "45,00",
+        "url": "assets/img/scarpa3.png"
+    },
+    {
+        "modello": "Authentic",
+        "categoria": "Scarpe",
+        "prezzo1": "65,00",
+        "prezzo2": "32,50",
+        "url": "assets/img/scarpa4.png"
+    },
+    {
+        "modello": "Era Vans X IT",
+        "categoria": "Scarpe",
+        "prezzo1": "85,00",
+        "prezzo2": "42,50",
+        "url": "assets/img/scarpa5.png"
+    },
+    {
+        "modello": "SK8-HI MTE-2",
+        "categoria": "Scarpe",
+        "prezzo1": "130,00",
+        "prezzo2": "65,00",
+        "url": "assets/img/scarpa6.png"
+    },
+    {
+        "modello": "Taylor MTE",
+        "categoria": "Giacche",
+        "prezzo1": "180,00",
+        "prezzo2": "90,00",
+        "url": "assets/img/giacca1.png"
+    },
+    {
+        "modello": "Piumino Foundry V MTE",
+        "categoria": "Giacche",
+        "prezzo1": "120,00",
+        "prezzo2": "60,00",
+        "url": "assets/img/giacca2.png"
+    },
+    {
+        "modello": "Cappotto Chore Lungo In Drill Stampato MTE II",
+        "categoria": "Giacche",
+        "prezzo1": "200,00",
+        "prezzo2": "100,00",
+        "url": "assets/img/giacca3.png"
+    },
+    {
+        "modello": "Giacca Lunga Boom Boom 66",
+        "categoria": "Giacche",
+        "prezzo1": "130,00",
+        "prezzo2": "65,00",
+        "url": "assets/img/giacca4.png"
+    },
+    {
+        "modello": "Giacca Emma Sherpa",
+        "categoria": "Giacche",
+        "prezzo1": "110,00",
+        "prezzo2": "55,00",
+        "url": "assets/img/giacca5.png"
+    },
+    {
+        "modello": "Cappotto Chore In Drill Lungo MTE",
+        "categoria": "Giacche",
+        "prezzo1": "200,00",
+        "prezzo2": "100,00",
+        "url": "assets/img/giacca6.png"
+    },
+    {
+        "modello": "Zaino Check Realm Con Glitter",
+        "categoria": "Zaini",
+        "prezzo1": "45,00",
+        "prezzo2": "22,50",
+        "url": "assets/img/zaino1.png"
+    },
+    {
+        "modello": "Zaino Realm Bandana",
+        "categoria": "Zaini",
+        "prezzo1": "40,00",
+        "prezzo2": "20,00",
+        "url": "assets/img/zaino2.png"
+    },
+    {
+        "modello": "Zaino Realm Animal Block",
+        "categoria": "Zaini",
+        "prezzo1": "40,00",
+        "prezzo2": "20,00",
+        "url": "assets/img/zaino3.png"
+    },
+    {
+        "modello": "Zaino Realm Plus",
+        "categoria": "Zaini",
+        "prezzo1": "55,00",
+        "prezzo2": "27,50",
+        "url": "assets/img/zaino4.png"
+    },
+    {
+        "modello": "Zaino Black Sheep",
+        "categoria": "Zaini",
+        "prezzo1": "35,00",
+        "prezzo2": "17,50",
+        "url": "assets/img/zaino5.png"
+    },
+    {
+        "modello": "Mini Zaino Vans X IT",
+        "categoria": "Zaini",
+        "prezzo1": "45,00",
+        "prezzo2": "22,50",
+        "url": "assets/img/zaino6.png"
+    }
+]

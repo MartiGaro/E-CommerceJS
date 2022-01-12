@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="d-flex justify-content-between p-3">
+        <nav class="navbar navbar-expand-md">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="black" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link comportamento-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link comportamento-link" href="chisiamo.html">Chi siamo</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link comportamento-link" href="categorie.html">Categorie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link comportamento-link" href="carrello.html">Carrello</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link comportamento-link" href="contatti.html">Contatti</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="login" class="nav-link comportamento-link" href="login.html">Login</a>
+                        <a id="logout" style="display: none;" class="nav-link comportamento-link"  href="index.html">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="logo"><img class="w-100" src="assets/img/logo.png"></div>
+    </header>
+    <div class="contenitore1 d-flex justify-content-center">
+        <div class="contenitore2 h-100" id="dimensione-c2">
+            <div id="contenitore-unico" class="container">
+                <h1 class="text-center">Contatti</h1>
+                <div class="row">
+                    <div class="col-md-8 mt-5">
+                        <main class="w-100">
+                            <div class="row p-5 text-dark w-100">
+                                <div class="col">
+                                    <form class="d-flex flex-column">
+                                        <h6>Nome:</h6>
+                                        <input type="text" name="nome" id="nomeAcquisto" placeholder="Inserisci nome"
+                                            class="mb-3 w-75">
+                                        <h6>Email:</h6>
+                                        <input type="email" name="email" id="email" placeholder="Inserisci e-mail"
+                                            class="mb-3 w-75">
+                                        <h6>Oggetto:</h6>
+                                        <input type="text" name="oggetto" id="oggetto" placeholder="Inserisci oggetto"
+                                            class="mb-3 w-75">
+                                        <h6>Scrivi messaggio:</h6>
+                                        <textarea placeholder="Scrivi il tuo messaggio" id="textarea"></textarea>
+                                        <button id="invia" type="button" class="btn btn-danger text-light w-50 my-4">Invia il
+                                            messaggio</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </main>
+                    </div>
+                    <div class="col-md-4 mt-5">
+                        <aside class="mt-5">
+                            <div>
+                                <h3>Sede legale</h3>
+                                <address>
+                                    Via Roma 20 <br>
+                                    20100 Milano (MI) <br><br>
+                                    (+39) 12 34 5678 <br>
+                                    info@vansoutlet.it
+                                </address>
+                            </div>
+                            <div class="mt-5">
+                                <h3>Lavora con noi</h3>
+                                <p>Per poterti candidare invia il tuo CV a personale@vansoutlet.it</p>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="piepag" class="container-fluid bg-light text-center">
+        <div class="row align-items-center">
+            <div class="col-md-6 mt-3">
+                <div>
+                    <img class="logo" src="assets/img/logo.png">
+                </div>
+            </div>
+            <div class="col-md-6 mt-3">
+                <div>
+                    <p>&copy; Martina Garone - Team 2</p>
+                    <a class="comportamento-link" href="javascript:void(0)">Informativa Privacy </a> | <a
+                        class="comportamento-link" href="javascript:void(0)"> Informativa Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="assets/js/contatti.js"></script>
+</html>
