@@ -11,8 +11,8 @@ $(document).ready(function () {
         document.getElementById('logout').style.display = 'none';
     });
 
-    if (localStorage.getItem('nome')) {
-        let Nome = localStorage.getItem('nome');
+    if (localStorage.getItem('user')) {
+        let Nome = localStorage.getItem('user');
         var y = [];
         let i;
 
@@ -20,9 +20,7 @@ $(document).ready(function () {
         document.getElementById('benvenuto').innerHTML = "Carrello di " + Nome + '<br><button type="button" class="btn btn-danger m-3 "id="acquistaTutto">Acquista tutto!</button>';
         y = JSON.parse(localStorage.getItem(Nome));
         for (i = 0; i < y.length; i++) {
-            document.getElementById('contenitore').innerHTML += '<div class="col-md-4 text-center"><div><div class="w-100 mb-3"><img src="' + y[i].url + '" class="w-100"></div><h6>' + y[i].modello + '</h6><h6>Prezzo: € ' + y[i].prezzo1 + '</h6><h6 style="color:red">Prezzo outlet: € ' + y[i].prezzo2 + '</h6></div><div class="d-flex flex-row p-3 justify-content-center"><button id="' + y[i].modello + '" class="btn btn-danger w25">Acquista</button></div></div>';
-
-
+            document.getElementById('contenitore').innerHTML += '<div class="col-md-4 text-center"><div><div class="w-100 mb-3"><img src="' + y[i].url + '" class="w-100"></div><h6>' + y[i].modello + '</h6><h6>Prezzo: € ' + y[i].prezzo1 + '</h6><h6 style="color:red">Prezzo outlet: € ' + y[i].prezzo2 + '</h6></div><div class="d-flex flex-row p-3 justify-content-center"><button id="' + y[i].modello + '" class="btn btn-danger w25 mr-1">Acquista</button><button class="btn btn-light text-danger w25 ml-1">Rimuovi</button></div></div>';
         }
     }
 
