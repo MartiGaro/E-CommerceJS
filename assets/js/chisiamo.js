@@ -8,5 +8,6 @@ $(document).ready(function(){
         localStorage.removeItem('user');
         document.getElementById('login').style.display = 'block';
         document.getElementById('logout').style.display = 'none';
+        .
     });
 });
