@@ -8,7 +8,7 @@ $(document).ready(function () {
     }
 
     document.getElementById('logout').addEventListener('click', function () {
-        localStorage.clear();
+        localStorage.removeItem('user');
         document.getElementById('login').style.display = 'block';
         document.getElementById('logout').style.display = 'none';
     });
