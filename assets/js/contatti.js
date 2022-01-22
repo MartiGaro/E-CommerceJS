@@ -13,10 +13,15 @@ $(document).ready(function () {
     let bottone = document.getElementById('invia');
 
     bottone.addEventListener('click', function () {
-        document.getElementById('nomeAcquisto').value = "";
+        if (document.getElementById('nomeAcquisto')!= "" && document.getElementById('email') != "" &&  document.getElementById('oggetto').value != "" && document.getElementById('textarea').value != "" ) {
+            document.getElementById('nomeAcquisto').value = "";
         document.getElementById('email').value = "";
         document.getElementById('oggetto').value = "";
         document.getElementById('textarea').value = "";
         alert('Messaggio inviato!')
+        }
+        else {
+            alert('Compilare tutti i campi!')
+        }
     });
 });
